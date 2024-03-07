@@ -1,3 +1,8 @@
+import Menu from './components/Menu';
+import Footer from './components/Footer';
+import Map from './components/Map';
+import Link from 'next/link';
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -8,6 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body>{children}</body>
+      <Menu/>
+        <Footer/>
+        <Map/>
     </html>
   )
 }
