@@ -1,6 +1,6 @@
 import Map from './components/Map';
 
-export default function Local({ children }) {
+export default function Localizacao({ children }) {
   return (
     <html lang="pt-br">
       <body>
