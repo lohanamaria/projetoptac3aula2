@@ -7,16 +7,16 @@ next: {
  }
   });
 
-const campi = await resposta.JSON;
+const campi = await resposta.json();
   return (
     <main>
       <h1>Home</h1>
 
 
       {
-        //campi.map((campus) => 
-       // <div> {campus.nome_campus}</div>
-       // )
+        campi.map((campus) => 
+     <div> {campus.nome_campus}</div>
+ )
         }
     </main>
   )
